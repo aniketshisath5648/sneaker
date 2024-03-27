@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html , body{
+height: 100%;
+width: 100%;
+}
+.logo{
+    display: flex;
+    height: 5vh;
+    width: 6vw;
+    font-size: 4vh;
+    margin-left: 100vh;
+   
+    
+}
+.nav{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+}
+.left-nav{
+    width: 15%;
+    height: 100%;
+}
+.left-nav i{
+    padding: 2vh;
+    font-size: 1vw;
+   
+}
+.mid-nav{
+    width: 70%;
+    height: 100%;
+
+   
+}
+.mid-nav a{
+    color: black;
+    text-decoration: none;
+    padding: 1.3vw;
+    font-weight: 600;
+    
+
+}
+.right-nav{
+    width: 15%;
+    height: 100%;
+
+}
+.right-nav i{
+    font-size: 1vw;
+    padding: 2vw;
+}
+.main{
+    width: 100%;
+    height: 40vw;
+    background-color: rgb(240, 240, 228);
+    display: flex;
+}
+.left-main{
+    height: 100%;
+    width: 50%;
+    z-index: 0;
+}
+.right-main{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.left-main h1, 
+.right-main h1{
+    font-size: 18vw;
+}
+.left-main h1{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10vw;
+}
+
+.hed h1{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10vw;
+    padding-left: 5vw;
+  
+}
+.left-main img {
+    width: 40vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.para1{
+    padding-left: 10vw;
+    font-size: 1vw;
+}
+.hed p{
+   font-size: 1VW;
+   display: flex;
+   justify-content:center; 
+}
